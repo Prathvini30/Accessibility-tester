@@ -1,0 +1,40 @@
+
+.app-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.form-section {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 75%;
+  max-width: 700px;
+  padding: 14px 18px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 14px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s;
+}
+
+.status-message,
+.error-message {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #e53935;
+}
